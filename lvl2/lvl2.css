@@ -1,5 +1,5 @@
-.body{
-    background-color: aqua;
+body{
+    background-color: rgb(221, 211, 211);
 }
 .container-1{
     display: flex;
@@ -7,13 +7,12 @@
     padding-left: 20px;
 }
 .par{
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 .box-1{
     padding: 10px;
-    border: 10px;
-    margin:5px;
-    background-color: rgb(245, 229, 229);
+    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
     
 }
 .all-1 {
@@ -22,9 +21,9 @@
 }
 .box-2{
     padding: 10px;
-    border: 10px;
-    margin:5px;
-    background-color: rgb(245, 229, 229);
+    border: 1px solid grey;;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
 }
 .all-2 {
     display: flex;
@@ -45,7 +44,7 @@
 }
 .par-2{
     margin-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 .container-2{
     display: flex;
@@ -53,18 +52,76 @@
     padding-left: 20px;
 }
 .box-5{
+    display: flex;
     padding: 10px;
-    border: 10px;
-    margin:5px;
-    background-color: rgb(173, 175, 121);
+    border: 2px solid grey;
+    
+    background-color: rgb(255, 255, 255);
     align-items: center;
-	justify-content: space-between;
+	
 }
 .box-6{
+    display: flex;
     padding: 10px;
-    border: 10px;
-    margin:5px;
-    background-color: rgb(173, 175, 121);
+    border: 2px solid grey;
+    
+    background-color: rgb(255, 255, 255);
     align-items: center;
-	justify-content: space-between;
+	
+}
+.ba-2{
+    color: #fff; 
+  text-decoration: none; 
+  user-select: none; 
+  background: rgb(21, 138, 31);
+  padding: .7em 1.5em; 
+  border:2px solid white;
+  border-radius: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.bat{
+    padding-top: 10px;
+}
+.bt-1{
+    font-size: 20px;
+}
+.bt-2{
+    color: rgba(141, 145, 148, 0.685);
+}
+.bt-3{
+    font-size: 20px;
+}
+.bt-4{
+    color: rgba(141, 145, 148, 0.685);
+}
+.cul-1{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+.cul-2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+.cul-3{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+.cul-4{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+.cul-5{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+}
+.ba-1{
+    color: rgb(177, 171, 164);
 }
