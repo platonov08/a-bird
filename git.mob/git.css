@@ -1,0 +1,164 @@
+.full{
+    
+    width:360px;
+    height: 700px;
+    border: 1px solid black;
+    background-color: rgb(228, 228, 228);
+}
+.cont-1{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+}
+.box-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+.box-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.cont-2{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    background-color: white;
+   
+}
+.box-21{
+    display: flex;
+border: 1px solid grey;
+width: 50%;
+justify-content: center;
+
+}
+.box-22{
+    display: flex;
+    border: 1px solid grey;
+    width: 50%;
+justify-content: center;
+    
+    
+}
+.b-21{
+    margin: 10px;
+    color: blue;
+}
+.cont-3{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    background-color: white;
+}
+.box-31{
+    display: flex;
+    border: 1px solid grey;
+
+}
+.box-32{
+    display: flex;
+    justify-content: left;
+    border: 1px solid grey;
+}
+.lat{
+    margin: 5px;
+}
+.tmaster{
+    margin: 10px;
+}
+.box-33{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    
+}
+.vc{
+display: flex;
+border: 1px solid grey;
+width:50%;
+justify-content: center;
+
+}
+.jtf{
+display: flex;
+border: 1px solid grey;
+width: 50%;
+justify-content: center;
+
+}
+.vc-1{
+    text-align: center;
+    margin: 10px;
+    color:blue;
+}
+
+.cont-4{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    background-color: rgb(238, 238, 238);
+}
+.box-41{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    justify-content: space-between;
+}
+.te-41{
+    display: flex;
+    margin: 5px;
+}
+.tex-41{
+    display: flex;
+    margin: 5px;
+}
+.box-42{
+    display: flex;
+    border: 1px solid grey;
+    justify-content: center;
+    
+}
+
+.box-43{
+    display: flex;
+    border: 1px solid grey;
+    justify-content: center;
+    
+    
+}
+.cont-5{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin: 20px;
+    background-color: rgb(238, 238, 238);
+}
+.box-51{
+    display: flex;
+    justify-content: left;
+    border: 1px solid grey;
+}
+.box-52{
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+}
+.box-53{
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+}
+
+.text-42{
+    margin: 10px;
+}
+.text-43{
+    margin: 10px;
+}
+.iis{
+    margin: 10px;
+}
