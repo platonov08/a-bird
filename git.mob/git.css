@@ -3,7 +3,7 @@
     width:360px;
     height: 700px;
     border: 1px solid black;
-    background-color: rgb(228, 228, 228);
+    background-color: #FAFBFD;
 }
 .cont-1{
     display: flex;
@@ -47,28 +47,34 @@ justify-content: center;
 .b-21{
     margin: 10px;
     color: blue;
+    font-weight: 500;
+    font-size: inherit;
 }
 .cont-3{
     display: flex;
     flex-direction: column;
     margin:20px;
     background-color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
 }
 .box-31{
     display: flex;
-    border: 1px solid grey;
+    border: 0px solid grey;
 
 }
 .box-32{
     display: flex;
     justify-content: left;
-    border: 1px solid grey;
+    border-top: 1px solid grey;
 }
 .lat{
     margin: 5px;
 }
 .tmaster{
     margin: 10px;
+    font-weight: 600;
+    font-size: 14px;
 }
 .box-33{
     display: flex;
@@ -78,14 +84,15 @@ justify-content: center;
 }
 .vc{
 display: flex;
-border: 1px solid grey;
+border-top: 1px solid grey;
 width:50%;
 justify-content: center;
 
 }
 .jtf{
 display: flex;
-border: 1px solid grey;
+border-top: 1px solid grey;
+border-left: 1px solid grey;
 width: 50%;
 justify-content: center;
 
@@ -100,12 +107,13 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     margin:20px;
-    background-color: rgb(238, 238, 238);
+    background-color: #F6F8FA;
+    border: 1px solid grey;
+    border-radius: 3px;
 }
 .box-41{
     display: flex;
     flex-direction: row;
-    border: 1px solid grey;
     justify-content: space-between;
 }
 .te-41{
@@ -118,14 +126,15 @@ justify-content: center;
 }
 .box-42{
     display: flex;
-    border: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
     justify-content: center;
     
 }
 
 .box-43{
     display: flex;
-    border: 1px solid grey;
+    
     justify-content: center;
     
     
@@ -134,23 +143,25 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
+    border-radius: 3px;
     margin: 20px;
-    background-color: rgb(238, 238, 238);
+    background-color: #F6F8FA;
 }
 .box-51{
     display: flex;
     justify-content: left;
-    border: 1px solid grey;
+    
 }
 .box-52{
     display: flex;
     justify-content: center;
-    border: 1px solid grey;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 .box-53{
     display: flex;
     justify-content: center;
-    border: 1px solid grey;
+   
 }
 
 .text-42{
@@ -161,4 +172,13 @@ justify-content: center;
 }
 .iis{
     margin: 10px;
+    font-size: 14px;
+}
+.lat{
+    font-size: 12px;
+    
+}
+.txt-1{
+    font-size: 14px!important;
+    font-weight: 600;
 }
