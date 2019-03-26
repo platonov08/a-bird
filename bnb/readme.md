@@ -1,1 +1,1 @@
-https://github.com/platonov08/a-bird/blob/master/bnb/bnb.html
+https://platonov08.github.io/a-bird/bnb/bnb.html

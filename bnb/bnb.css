@@ -34,6 +34,7 @@ body{
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid grey;
+    position: relative;
 }
 .date{
 display: flex;
@@ -49,7 +50,7 @@ margin: 10px 10px 10px 10px;
     display: flex;
     border: 1px solid rgb(220, 224, 224);
     border-radius: 4px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 0px;
 }
 .guests-1{
     padding: 2px 6px 3px;
@@ -77,11 +78,22 @@ margin: 10px 10px 10px 10px;
                 margin-left: 10px;
 
             }
+            .homes-1{
+                display:flex;
+                margin: 5px;
+                margin-bottom: 10px;
+            }
             .exper{
                 display: flex;
                 flex-direction: column;
                 border: 1px solid grey;
                 border-radius: 4px;
+            }
+            .exper-1{
+                display:flex;
+                margin: 5px;
+                margin-bottom: 10px;
+                
             }
 .zag{
     display: flex;
@@ -108,4 +120,11 @@ margin: 10px 10px 10px 10px;
 .im-1{
     display: flex;
     font-size: 14px;
+    margin: 10px;
+}
+.sr1{
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    
 }
