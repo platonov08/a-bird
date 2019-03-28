@@ -1,10 +1,13 @@
 body{
     height: 100%;
     width: 100%;
+    background-image: url('vimg/fone.jpg');
+    
 }
 .head{
     display: flex;
     flex-direction: column;
+    width: 100%;
 
 }
 .head-1{
@@ -12,11 +15,16 @@ body{
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(252, 213, 213);
+    border: 5px solid royalblue;
+    border-radius: 5px;
+    border-bottom: none;
     
 }
 .s18y{
     display: flex;
     font-size: 30px;
+    font-weight: 800;
+    color: blue;
     padding: 10px;
 }
 .d101{
@@ -41,6 +49,9 @@ body{
     background-color: rgb(255, 223, 245);
     padding-left: 25px;
     min-width: 470px;
+    border: 5px solid royalblue;
+    border-radius: 5px;
+    border-top: none;
   }
   #navbar li {
     float: left;
@@ -64,7 +75,21 @@ body{
   .main-t1{
       display: flex;
       border: 1px solid rosybrown;
+      box-shadow: 4px;
       border-radius: 5px;
       margin: 40px 40px 0px 80%;
       padding: 20px;
+      background-color: whitesmoke;
   }
+  .main-t1:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
