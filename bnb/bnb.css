@@ -16,6 +16,11 @@ body{
     
 
 }
+.simb-1{
+display: flex;
+background-color: white;
+border: none;
+}
             .searh{
     display: flex;
     
@@ -26,7 +31,7 @@ body{
     border: 1px solid #EBEBEB;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgb(220, 224, 224);
-    margin: 10px 10px 10px 44px;
+    margin: 10px 10px 10px 20px;
     padding: 10px;
     padding-right: 24px;
     font-size: 17px;
@@ -47,7 +52,7 @@ margin: 10px 10px 10px 10px;
 background-color: white;
 }
 .date-1{
-    padding: 2px 6px 3px;
+    padding: 6px 6px 3px;
     border-width: 2px;
     font-size: 14px;
 }
@@ -59,7 +64,7 @@ background-color: white;
     margin: 10px 10px 10px 0px;
 }
 .guests-1{
-    padding: 2px 6px 3px;
+    padding: 6px 6px 3px;
     border-width: 2px;
     font-size: 14px;
 }
@@ -72,6 +77,7 @@ background-color: white;
                 margin: 10px 0px 5px 10px;
                 font-size: 24px;
                 line-height: 30px;
+                font-weight: 800;
                 
 
             }
@@ -150,4 +156,21 @@ background-color: white;
     display: flex;
     font-size: 12px;
     margin: 10px 0 0 10px; 
+}
+.ima{
+    display: inline-block;
+    width:150px;
+    height: auto;
+    overflow: hidden;
+    border: none;
+    background: white;
+    outline: 1px solid white;
+    margin: 0px;
+}
+.ima img{
+    width: 138px;
+    height: 77px;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
