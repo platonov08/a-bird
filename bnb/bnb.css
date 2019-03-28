@@ -98,7 +98,8 @@ background-color: white;
                 display:flex;
                 padding: 10px;
                 font-size: 14px;
-                line-height: 1.43px;
+                font-weight: 800;
+                
                 color: rgb(72, 72, 72);
             }
             .exper{
@@ -112,7 +113,7 @@ background-color: white;
                 display:flex;
                 padding: 10px;
                 font-size: 14px;
-                line-height: 1.43;
+                font-weight: 800;
                 color: rgb(72, 72, 72);
                 
             }
@@ -121,6 +122,7 @@ background-color: white;
     margin-top: 10px;
     color: rgb(72, 72, 72);
     font-size: 24px;
+    font-weight: 800;
     margin-left: 10px;
 
 }
@@ -148,29 +150,38 @@ background-color: white;
 }
 .sr1{
     display: flex;
-    border-radius: 10px;
-    margin: 10px;
+    border-radius: 5px;
+    margin: 5px;
     
 }
 .im-2{
     display: flex;
     font-size: 12px;
+    font-weight: 800;
     margin: 10px 0 0 10px; 
 }
 .ima{
-    display: inline-block;
-    width:138px;
-    height: auto;
-    overflow: hidden;
-    border: none;
-    background: white;
-    outline: 1px solid white;
-    margin: 0px;
+ width: 138px;
+ height: 77px;
+ background-image: url(https://a0.muscache.com/4ea/air/v2/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg?t=r:w375-h250-sfit,e:fjpg-c80);
+ background-size: cover;
+ background-repeat: no-repeat;
+border: none;
+
+
 }
-.ima img{
-    width: 138px;
-    height: 77px;
-    border: none;
-    margin: 0;
-    padding: 0;
+.sv{
+    display: flex;
+    flex-direction: row;
+    color: #914669;
+    margin:10px;
+    
+}
+svg{
+    width: 9px;
+}
+.nu{
+    color: black;
+    margin-left: 10px;
+    font-size: 12px;
 }
