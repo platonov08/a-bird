@@ -20,6 +20,7 @@ body{
 display: flex;
 background-color: white;
 border: none;
+margin-left: 15px;
 }
             .searh{
     display: flex;
@@ -48,7 +49,7 @@ border: none;
 display: flex;
 border: 1px solid rgb(220, 224, 224);
 border-radius: 4px;
-margin: 10px 10px 10px 10px;
+margin: 10px 10px 10px 15px;
 background-color: white;
 }
 .date-1{
@@ -71,6 +72,7 @@ background-color: white;
             .chose{
                 display: flex;
                 flex-direction: column;
+                margin-left: 10px;
             }
             .chose-1{
                 display: flex;
@@ -96,9 +98,12 @@ background-color: white;
             }
             .homes-1{
                 display:flex;
-                padding: 10px;
+                padding-bottom: 30px;
+                padding-top: 10px;
+                padding-left: 10px;
                 font-size: 14px;
                 font-weight: 800;
+                border: rgba(0,0,0.2);
                 
                 color: rgb(72, 72, 72);
             }
@@ -123,7 +128,7 @@ background-color: white;
     color: rgb(72, 72, 72);
     font-size: 24px;
     font-weight: 800;
-    margin-left: 10px;
+    margin-left: 15px;
 
 }
 .zag-1{
@@ -131,7 +136,7 @@ background-color: white;
     margin-bottom: 10px;
     color: rgb(72, 72, 72);
     font-size: 14px;
-    margin-left: 10px;
+    margin-left: 15px;
 
 }
 .row{
@@ -146,19 +151,27 @@ background-color: white;
     display: flex;
     flex-direction: row;
     font-size: 14px;
-    margin-left: 10px;;
+    font-weight: 800;
+    margin-left: 5px;;
 }
 .sr1{
     display: flex;
-    border-radius: 5px;
+    width: 204px;
+    height: 136px;
+    border-radius: 3px;
     margin: 5px;
     
+}
+.im-5{
+    display: flex;
+    margin-left: 5px;
+
 }
 .im-2{
     display: flex;
     font-size: 12px;
     font-weight: 800;
-    margin: 10px 0 0 10px; 
+    margin: 10px 0 0 5px; 
 }
 .ima{
  width: 138px;
@@ -174,7 +187,7 @@ border: none;
     display: flex;
     flex-direction: row;
     color: #914669;
-    margin:10px;
+    margin:10px 0px 0px 5px;
     
 }
 svg{
@@ -184,4 +197,8 @@ svg{
     color: black;
     margin-left: 10px;
     font-size: 12px;
+}
+.box-1{
+    width: 216px;
+    height: 243px;
 }
