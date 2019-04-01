@@ -2,6 +2,7 @@ body{
     height: 800px;
     width: 100%;
     border: none;
+    margin-left: -5px;
 }
             .header{
     display: flex;
