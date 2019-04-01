@@ -73,7 +73,7 @@ body{
 
 
   .main-t1{
-      display: flex;
+      display: block;
       border: 1px solid rosybrown;
       box-shadow: 4px;
       border-radius: 5px;
