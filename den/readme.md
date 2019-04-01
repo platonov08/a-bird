@@ -1,1 +1,1 @@
-https://github.com/platonov08/a-bird/tree/master/den/den.html
+https://platonov08.github.io/a-bird/den/den.html
