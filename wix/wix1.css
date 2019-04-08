@@ -12,8 +12,11 @@ body{
     width: 100%;
     box-shadow: 5px;
     }
-.row-1 :hover{
+.row-1:hover{
     background-color: white;
+    color: black;
+}
+.row-1:hover li a{
     color: black;
 }
 .sim{
