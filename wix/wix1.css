@@ -10,9 +10,11 @@ body{
     justify-content: space-between;
     height: 77px;
     width: 100%;
-    border: 1px solid gray;
     box-shadow: 5px;
-    background-color: none;
+    }
+.row-1 :hover{
+    background-color: white;
+    color: black;
 }
 .sim{
     display: flex;
@@ -104,6 +106,7 @@ body{
   }
   .page{
       display: flex;
+      justify-content: center;
       margin-top: 40px;
     width: 100%;
   }
